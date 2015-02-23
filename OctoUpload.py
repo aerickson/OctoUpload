@@ -3,12 +3,12 @@
 #Depend: GCode
 #Type: postprocess
 #Param: uploadBool(string:yes) Upload gcode after slice
+#Param: outputName(string:output) Output Filename
 #Param: selectBool(string:yes) Select once uploaded (yes/no)
 #Param: printBool(string:no) Print after upload (yes/no)
 #Param: hostIP(string:octopi.local) IP Address
 #Param: octoPort(string:80) Port
 #Param: apiKey(string:) API Key
-#Param: outputName(string:output) Output Filename
 #Param: sendLoc(string:local) OctoPrint Location (local or sdcard)
 #Param: gcodeExt(string:gcode) GCode Extension
 #Param: sslBool(string:no) SSL (yes/no)
