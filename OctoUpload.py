@@ -20,12 +20,14 @@
 
 version = "0.1"
 
+from Cura.util import profile
 import base64
 import socket
 import urllib
 import urllib2
 import mimetools
 import sys
+import os
 
 timeout = 15
 socket.setdefaulttimeout(timeout)
@@ -43,6 +45,7 @@ print selectBool
 #skip upload if not enabled
 if uploadBool == "yes":
   #remove extension user may have used on the filename
+  outputName=os.path.basename(profile.getPreference('lastFile'))
   outputName = outputName.split(".")[0]
   print outputName
 
