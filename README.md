@@ -1,6 +1,7 @@
 News
 ====
-La nom du fichier transferé est le meme que celui du stl
+Le nom du fichier transferé est le meme que celui du stl
+
 The name of stl use on gcode file ;)
 
 OctoUpload
